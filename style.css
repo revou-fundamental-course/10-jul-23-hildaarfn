@@ -1,0 +1,241 @@
+/*styles.css*/
+/*mengatur warna background dan warna teks dari seluruh halaman*/
+body{
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    color: #fff;
+}
+
+/* Mengatur jarak antara konten dengan tepi halaman dan jenis font */
+.full-container{
+    padding: 2rem;
+    font-family: 'Times New Roman', Times, serif
+} 
+
+/* Mengatur display, posisi elemen, dan ukuran box pada bagian home */
+.home{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;  
+}
+
+/* Mengatur jarak antara konten dengan tepi halaman pada konten utama */
+.main-conter{
+    padding: 20px;
+}
+
+/* agar bagian row menjadi grid 2 kolom dan margin(jarak) kanan */
+.row{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-right: 40px;
+}
+
+/* memberi jarak elemen pada bagian kanan div kolom */
+.kolom{
+    margin-right: 20px;
+}
+
+/* Mengatur margin atas pada elemen h1 atau judul konten web*/
+h1{
+    margin-top: 0%;
+}
+
+/* Mengatur margin atas dan ukuran font pada elemen p atau teks*/
+p{
+    margin-top: 0%;
+    font-size: 18;
+}
+
+/* memberikan tampilan form menjadi 3d dan mengatu padding margin */
+.col-sm-12{
+    padding: 20px;
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.597),
+                inset 0 0 20px rgba(0, 37, 52, 0.256),
+                0 0 20px rgba(4, 29, 41, 0.2);
+     border-radius: 10px;
+     margin-right: 2%
+}
+
+/* Mengatur margin (jarak antara elemen dengan elemen-di sekitarnya) dan padding  bagian form */
+form {
+    margin: 5%;
+    padding: auto;
+}
+
+/*mengatur padding bawah dan bagian form group menjadi grid 2 kolom */
+.form-group{
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+/*agar elemen bagian form-group-button berada di tengah */
+.form-group-button{
+    justify-content: center;
+}
+
+/* mengatur tampilan bagian form-control */
+.form-control {
+    display: table-cell;
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+    height: 25px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* mengatur posisi bagian input dalam form (inputGroupContainer) */
+.inputGroupContainer {
+    position: relative;
+}
+
+/*mengatur margin dan warna background serta bordernya pada button reset */
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    margin-left: 10px;
+}
+
+/* mengatur warna background serta bordernya pada button hitung BMI */
+.btn-info {
+    color: #fff;
+    background-color: #002639;
+    border-color: #00050a;
+}
+
+/*mengatur tampilan button*/
+.btn {
+    display: inline-block;
+    padding: 2px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+button {
+    font-family: inherit;
+    overflow: visible;
+    margin: 0;
+    margin-top: 5%;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+
+/*agar margin atas tidak ada jarak dan mengatur ukuran font pada teks bagian h3 */
+.kolom h3{
+    margin-top: 0%;
+    font-size: 20;
+}
+
+/*mengatur ukuran font pada teks list keunggulan fitu*/
+ol{
+    font-size: 18;
+}
+
+/*memberikan jarak margin atas dan bawah pada teks bagian syarat*/
+p[id=prasyarat]{
+    margin-top: 5%;
+    margin-bottom: 5% ;
+}
+
+/*memberikan jarak margin atas yang memuat tampilan hasil*/
+.col-md-12{
+    margin-top: 5%;
+}
+
+/* mengatur ukuran font dan margin bawah pada teks "hasil" */
+.col-md-12 h3{
+    font-size: 20;
+    margin-bottom: 0%;
+}
+
+/*membuat bagian baris-2 menjadi 2 kolom dan memberikan jarak margin kanan */
+.baris-2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-right: 40px;
+  
+}
+
+/* memberikan tampilan m-0 atau hasil menjadi 3d dan mengatur padding margin serta bagian teks menjadi di tengah */
+.m-0{
+text-align: center;
+padding: 20px;
+box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.597),
+inset 0 0 20px rgba(0, 37, 52, 0.256),
+0 0 20px rgba(4, 29, 41, 0.2);
+     border-radius: 10px;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+/*agar teks bagian h4 jarak margin tidak ada */
+h4{
+    margin: 0%;
+}
+
+/*membuat jarak margin atas teks h1 bagian hasilBMI */
+h1[id=hasilBMI]{
+    margin-top: 5%;
+}
+
+/*membuat jarak margin atas*/
+.keteranganBMI{
+    margin-top: 5%;
+}
+
+/*membuat jarak margin atas bawah*/
+.aplikasi{
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+/*mengatur margin kiri*/
+.konsultasi{
+    margin-left: auto;
+}
+
+/*mengatur tampilan web agar sesuai jika diatur dalam screen mobile*/
+@media (max-width: 767px) {
+    .row {
+        display: block;
+        margin-right: 0;
+    }
+
+    .kolom {
+        margin-right: 0;
+    }
+
+    .form-group {
+        grid-template-columns: 100%;
+    }
+
+    .col-md-12{
+        display: block;
+        margin-right: 0;
+    }
+
+    .baris-2{
+        display: block;
+    }
+}
